@@ -1,0 +1,30 @@
+img {
+  width: 200px;
+  border-radius: 100px;
+  float: left;
+  margin-right: 30px;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 50px;
+  font-style: normal;
+}
+p {
+  font-style: normal;
+}
+video {
+  width: 400px;
+}
+
+table,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+tfoot {
+  text-align: left;
+}
+
+
