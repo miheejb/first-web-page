@@ -1,0 +1,17 @@
+@media (max-width: 800px) {
+.container-1-box{
+  height:80vh;
+}
+
+
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  .continer-1-box{
+    flex-basis:40;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* this section only works when screen size is more than 800px */
+}

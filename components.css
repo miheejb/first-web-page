@@ -1,0 +1,317 @@
+/* need to work out -create flex or grid for the article boxes */
+
+
+.btn {
+  display: inline-block;
+  background-color: rgb(247, 148, 173);
+  color:black;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.btn:hover {
+  color: black;
+  font-weight: bold;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.github-content {
+  display: inline-block;
+  background-color: yellow;
+  color:darkslategrey;
+  text-align: center;
+  padding: 5px 10px;
+  margin: 5rem, 0, 10rem 5rem;
+}
+.github{
+display:grid;
+justify-self:center;
+
+
+}
+
+/* /* .sticky {
+  postion: sticky;
+  top: 0;
+
+  display: flex;
+  background-color: aquamarine;
+} */
+
+.nav-container {
+  width: 100%;
+  background-color: transparent;
+
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 0.2fr auto 1fr;
+  align items: center;
+  height: 8rem;
+  line-height: 4rem;
+
+  width: 90%;
+  max-width: 1720px;
+  margin: 0 auto;
+}
+
+#navbar-logo {
+  color: var(--darkpink);
+  justify-self: start;
+  margin-left: 3rem;
+  margin-bottom:auto
+  font-size: 3rem;
+  
+
+}
+
+#navbar-logo {
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  list-style: none;
+  text-align: center;
+  width: 70%;
+  justify-self: end;
+  color: var(--darkgrey);
+
+
+}
+
+.nav-links {
+  color: var(--darkgrey);
+  font-size: 2rem;
+  text-decoration: none;
+
+}
+
+.nav-links:hover {
+
+  color:var(--darkpink);
+  transition: all 0.2s ease-out;
+}
+
+.nav-links-btn {
+  background-color: var(--brightred);
+  color:black;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.nav-links-btn:hover {
+  background-color: transparent;
+  color:var*--brightred;
+  padding: 0.4rem 1.4rem;
+  border: 0.2rem solid var(--brightred);
+  transition: all 0.2s ease-out;
+}
+
+.menu-toggle .bar {
+  width: 2.5rem;
+  height: 0.3rem;
+  margin: 0.5rem auto;
+  transition: all 0.2s ease-out;
+  background: var(--white);
+
+}
+
+/* @media screen and (max-width:768px){
+.nav-container{
+  position:relative;
+
+}
+.nav-menu{
+  display:grid;
+  grid-template-columns:auto;
+  background:var (--brightred);
+  width:100%;
+  position:absolute;
+  top:80px;
+  left:-100%
+  opacity:0;
+  transition
+
+} */
+
+h1 {
+  text-align: center;
+  text-decoration: none;
+  height: 6rem;
+  line-height: 6rem;
+  background-color: pink;
+  color:rgb(245, 133, 153);
+  margin: 0;
+ 
+
+}
+
+
+
+
+
+.container-1 {
+  display: flex;
+  justify-content:space-between;
+    flex-wrap: wrap;
+
+}
+
+.container-1-box {
+  flex-basis: 27%;
+  border: 3px solid var(--darkerpink);
+  border-radius:2rem;
+  padding: 3rem;
+  flex-shrink: 1;
+  height: 50vh;
+  margin-top:3rem;
+  margin-bottom:3rem;
+  margin-left:2rem;
+  margin-right:2rem;
+  color:rgb(56, 55, 55);
+  box-shadow: 5px pink;
+
+  /* flex-grow:1;
+  flex-shrink:1; */
+}
+
+.container-1-box-one {
+  height: 80vh;
+} 
+h3{
+  font-weight:bold;
+  font-size:2rem;
+  padding: 0.5 rem;
+  text-decoration:none;
+  line-height: 3rem;
+  
+
+
+}
+
+img {
+  width:25rem;
+  height:33rem;
+  object-fit: cover;
+  border-radius: 3rem;
+  float: left;
+  margin-right: 3rem;
+}
+
+.container-contents{
+  font-size:1.6rem;
+}
+
+
+
+
+table,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+tfoot {
+  text-align: left;
+}
+footer{
+  background-color:pink;
+  height:auto;
+  width:100vh:
+  font-family:nunito; 
+  padding-top:0;
+  color:rgb(243, 119, 140);
+}
+
+.jump{
+  padding:5rem;
+}
+
+.footer-content{
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+  flex-direction:row;
+  text-align: right;
+
+}
+
+.footer-content h3{
+  font-size:2rem;
+  font-weight:400;
+  text transform:capitalize;
+  padding-right: 5rem;
+  /* line-height:3rem; */
+}
+
+.footer-content p{
+  
+  max-width: 500px;
+  /* margin:auto; */
+  line-height:3rem;
+  font-size:2rem;
+  font-weight: bold;
+  padding-left: 7rem;
+}
+.footer-content ul{
+  padding-left:0rem;
+}
+
+
+.socials{
+  list-style:none;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  /* margim: 2rem 0; */
+}
+.social-icon{
+  font-size: 4rem;
+  color:var(--darkerpink);
+  transition:auto 0.2s ease-out;
+  padding: 6rem;
+
+}
+
+.social-icon:hover{
+  color: aquamarine;
+}
+
+.footer-bottom{
+  background-color:pink ;
+  /* width:
+  padding: */
+  text-align:center;
+
+}
+
+.footer-bottom p{
+  font-size:2rem ;
+  word-spacing:0.5rem;
+  text-transform:uppercase;
+  text-align:center;
+  font-weight:bold;
+ 
+}
+
+*:visited{
+  color:var(--darkpink);
+}
+------------------------------------
+.contactmecontainer{
+  width:90%;
+  max-width: 55px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow :0px 0px 20px black;
+  backgroud-color: blue;  
+}
+
+----------------------------------------------------
