@@ -8,28 +8,23 @@
 }
 
 .navbar {
-  display: grid;
-  grid-template-columns: 0.2fr auto 1fr;
-  align items: center;
-  height: 8rem;
+  display: flex;
+  justify-content:right;
+  height:8rem;
   line-height:4rem;
   width: 90%;
   max-width: 1720px;
   margin: 0 auto;
 }
+.logo{
+  width:20rem;
+  height: 7rem;
+  justify-content:left;
+  margin-top: 0.25rem;
+  box-shadow:none;
+  size-adjust: auto;
 
-#navbar-logo {
-  color: var(--darkpink);
-  justify-self: start;
-  margin-left: 3rem;
-  margin-bottom: auto;
-  font-size: 2rem;
 }
-
-#navbar-logo {
-  cursor: pointer;
-}
-
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(5, auto);
@@ -56,6 +51,8 @@
   border: 0.3rem solid var(--brightred);
   padding: 0.5rem 1.5rem;
   border-radius: 1rem;
+  font-weight:900;
+  box-shadow: 5px 5px 1px rgba(236, 134, 151, 0.5)
 }
 
 .nav-links-btn:hover {
@@ -96,7 +93,7 @@ h1 {
   text-decoration: none;
   height: 6rem;
   line-height: 6rem;
-  background-color: pink;
+  background-color:pink;
   color: var(--darkerpink);
   margin: 0;
 }
@@ -109,6 +106,7 @@ h1 {
   text-transform: uppercase;
   text-decoration: none;
   padding: 5px 10px;
+  box-shadow: 5px 5px 1px rgba(240, 162, 175, 0.5)
 }
 
 .btn:hover {
@@ -123,23 +121,20 @@ h1 {
   text-align: center;
   padding: 5px 10px;
   margin: 5rem, 0, 10rem 5rem;
+  box-shadow: 5px 5px 1px rgba(206, 206, 108, 0.5)
+
 }
 
-.github {
+/* .github {
   display: grid;
   justify-self: center;
-
-
-}
-
-
+} */
 
 
 .container-1 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-
 }
 
 .container-1-box {
@@ -155,9 +150,14 @@ h1 {
   margin-right: 2rem;
   color: rgb(56, 55, 55);
   text-shadow: 0 10px 20px rgba(241, 113, 134 0.5);
+  line-height: 2rem;
   flex-grow: 1;
   flex-shirink: 1;
+  overflow-y:scroll;
+  box-shadow: 0 10px 0 rgba(240, 162, 175, 0.5)
 }
+
+
 
 /* flex-grow:1;
   flex-shrink:1; */
@@ -180,6 +180,9 @@ img {
   border-radius: 3rem;
   float: left;
   margin-right: 3rem;
+  box-shadow:10px 10px 1px rgba(240, 162, 175, 0.5) ;
+  margin-bottom:2rem;
+  margin-right:3rem;
 }
 
 .container-contents {
@@ -214,12 +217,13 @@ tfoot {
   flex-direction: column;
   justify-content: right;
   align-items: center;
-  height: 8rem width: 50rem;
+  height: 12rem;
+   width: 100%;
   background-color: pink;
   text-align: center;
   border-radius: 5px;
-  margin-top:3rem;
-  padding-right:5rem;
+  margin-top:1 rem;
+  /* padding-right:5rem; */
   
 }
 
@@ -233,15 +237,18 @@ tfoot {
 #email-input {
   width: 20rem;
   padding: 1rem 2rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
   margin-bottom: 2rem;
   border-radius: 8px;
+  box-shadow: 5px 5px 1px rgba(236, 134, 151, 0.5)
 }
 
 #submit {
+  background-color:white;
   padding: 1rem 2rem;
   border-radius: 8px;
   font-weight: bold;
+  box-shadow: 5px 5px 1px rgba(236, 134, 151, 0.5)
 }
 
 #submit:hover {
@@ -277,7 +284,10 @@ footer {
   padding-right: 5rem;
   /* line-height:3rem; */
 }
-
+.fa-balloon {
+  margin-right:1rem;
+  color: var(--darkgrey);
+}
 .footer-content p {
   max-width: 500px;
   /* margin:auto; */
