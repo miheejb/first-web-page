@@ -1,6 +1,106 @@
 /* need to work out -create flex or grid for the article boxes */
 
 
+
+.nav-container {
+  width: 100%;
+  background-color:transparent;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 0.2fr auto 1fr;
+  align items: center;
+  height: 8rem;
+  line-height:4rem;
+  width: 90%;
+  max-width: 1720px;
+  margin: 0 auto;
+}
+
+#navbar-logo {
+  color: var(--darkpink);
+  justify-self: start;
+  margin-left: 3rem;
+  margin-bottom: auto;
+  font-size: 2rem;
+}
+
+#navbar-logo {
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  list-style: none;
+  text-align: center;
+  width: 70%;
+  justify-self: end;
+}
+
+.nav-links {
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: var(--darkgrey);
+}
+
+.nav-links:hover {
+
+  color: var(--darkpink);
+  transition: all 0.2s ease-out;
+}
+
+.nav-links-btn {
+  background-color:transparent;
+  border: 0.3rem solid var(--brightred);
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+}
+
+.nav-links-btn:hover {
+  background-color: transparent;
+  color: var(--brightred);
+  padding: 0.4rem 1.4rem;
+  border: 0.4rem solid var(--brightred);
+  transition: all 0.2s ease-out
+  font-weight:bold;
+}
+
+/* .menu-toggle .bar {
+  width: 2.5rem;
+  height: 0.3rem;
+  margin: 0.5rem auto;
+  transition: all 0.2s ease-out;
+  background: var(--white);
+} */
+
+/* @media screen and (max-width:768px){
+.nav-container{
+  position:relative;
+}
+.nav-menu{
+  display:grid;
+  grid-template-columns:auto;
+  background:var (--brightred);
+  width:100%;
+  position:absolute;
+  top:80px;
+  left:-100%
+  opacity:0;
+  transition
+} */
+
+h1 {
+  text-align: center;
+  text-decoration: none;
+  height: 6rem;
+  line-height: 6rem;
+  background-color: pink;
+  color: var(--darkerpink);
+  margin: 0;
+}
+
 .btn {
   display: inline-block;
   background-color: rgb(247, 148, 173);
@@ -31,120 +131,6 @@
 
 
 }
-
-/* /* .sticky {
-  postion: sticky;
-  top: 0;
-  display: flex;
-  background-color: aquamarine;
-} */
-
-.nav-container {
-  width: 100%;
-  background-color: transparent;
-
-}
-
-.navbar {
-  display: grid;
-  grid-template-columns: 0.2fr auto 1fr;
-  align items: center;
-  height: 8rem;
-  line-height: 4rem;
-
-  width: 90%;
-  max-width: 1720px;
-  margin: 0 auto;
-}
-
-#navbar-logo {
-  color: var(--darkpink);
-  justify-self: start;
-  margin-left: 3rem;
-  margin-bottom: auto;
-   font-size: 2rem;
-
-
-}
-
-#navbar-logo {
-  cursor: pointer;
-}
-
-.nav-menu {
-  display: grid;
-  grid-template-columns: repeat(5, auto);
-  list-style: none;
-  text-align: center;
-  width: 70%;
-  justify-self: end;
-}
-
-.nav-links {
-  text-decoration: none;
-  font-size: 2.5rem;
-  color: var(--darkgrey);
-}
-
-.nav-links:hover {
-
-  color: var(--darkpink);
-  transition: all 0.2s ease-out;
-}
-
-.nav-links-btn {
-  background-color:transparent;
-  border: 0.2rem solid var(--brightred);
-  padding: 0.5rem 1.5rem;
-  border-radius: 0.5rem;
-}
-
-.nav-links-btn:hover {
-  background-color: transparent;
-  color: var(--brightred);
-  padding: 0.4rem 1.4rem;
-  border: 0.2rem solid var(--brightred);
-  transition: all 0.2s ease-out
-  font-weight:bold;
-}
-
-.menu-toggle .bar {
-  width: 2.5rem;
-  height: 0.3rem;
-  margin: 0.5rem auto;
-  transition: all 0.2s ease-out;
-  background: var(--white);
-
-}
-
-/* @media screen and (max-width:768px){
-.nav-container{
-  position:relative;
-}
-.nav-menu{
-  display:grid;
-  grid-template-columns:auto;
-  background:var (--brightred);
-  width:100%;
-  position:absolute;
-  top:80px;
-  left:-100%
-  opacity:0;
-  transition
-} */
-
-h1 {
-  text-align: center;
-  text-decoration: none;
-  height: 6rem;
-  line-height: 6rem;
-  background-color: pink;
-  color: var(--darkerpink);
-  margin: 0;
-
-
-}
-
 
 
 
@@ -241,6 +227,7 @@ tfoot {
 .fa-envelope {
   color:purple;
   font-size: ;
+  padding-right:1rem;
 }
 
 #email-input {

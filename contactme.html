@@ -18,27 +18,31 @@
             magin: 0;
             padding: 0;
             font-family: nunito, san-serif;
+            font-size:16px;
 
         }
 
         body {
             background: lightpink;
+    
         }
 
         .contact-me {
             width: 30rem;
             backbackground: white;
             padding: 5rem;
-            margin: 15rem auto;
+            margin: 7rem auto;
             border-radius: 3px;
+    
 
         }
 
         .title h1 {
             clear: #535274;
             letter-spacing: 5px;
-            magin-bottom: 25px;
+            magin-bottom: 2.5px;
             text-align: center;
+            font-size:25px;
         }
 
         .form,
@@ -49,23 +53,38 @@
 
         .form-items .input {
             width: 100%;
-            margin-bottom: 12px;
+            margin-bottom: 15px;
             padding: 15px 40px;
             box-sizing: border-box;
             background-color: white;
             border: 0;
             border-radius: 30px;
+    
         }
+
+        
+
 
         .form-items .input.message {
             height: 124px;
             border-radius: 15px;
             margin-bottom: 30px;
-            padding: 15px resize:none;
+            padding: 15px 
+            resize:none;
+        }
+
+        .test{
+            width:100%;
+            margin-bottom:15px;
+        box-sizing:border-box;
+        padding:15px 40px;
+        border-radius:30px;
+        border:0;
+
         }
 
         .btn {
-            background:violet;
+            background: violet;
             text-align: center;
             color: #fff;
             padding: 12px;
@@ -73,10 +92,9 @@
             cursor: pointer;
         }
 
-        .brn .fas {
-            margin-left: 20px;
-            font-size: 12px;
-
+        .btn:hover{
+            color:black;
+            font-weight:700;
         }
 
         .form-items {
@@ -88,35 +106,35 @@
             top: 15px;
             left: 15px;
         }
-        .social-icons{
-            position:absolute;
-            bottom: -25px;
-            left:43%;
-           width:15rem;
 
-            /* width:15rem; */
-            display:flex;
+        .social-icons {
+            position: absolute;
+            top:54rem;
+            left:44%;
+            width: 15rem;
+            display: flex;
             justify-content: space-between;
             letter-spacing: 2rem;
         }
+.social-icons .fa:hover{
+    color:purple;
 
-        .social-icons div{
-            width:50px;
-            height:50px;
-            background:rgb(245, 138, 156);
+    
+}
+        .social-icons div {
+            width: 50px;
+            height: 50px;
+            background: rgb(245, 138, 156);
             border-radius: 50%;
-            position:relative;
-         
-
+            position: relative;
         }
-        .social-icons .fa{
-            position:absolute;
+
+        .social-icons .fa {
+            position: absolute;
             top:50%;
-            bottom:50%;
+            left:80%;
             transform: translate(-50%, -50%);
-            color:white;
-
-        }
+            color: white;
         }
     </style>
 </head>
@@ -138,8 +156,14 @@
             </div>
 
             <div class="form-items">
-                <input type="text" class="input" placeholder="select country">
+                <input type="text" class="input" placeholder="which country are you living? (optional)">
                 <i class="fa fa-solid fa-globe"></i>
+
+            </div>
+            
+            <div class="form-items">
+                <input type="text" class="input" placeholder = "how did you hear about me? (optional)">
+                <i class="fa fa-solid fa-circle-question"></i>
 
             </div>
 
@@ -147,11 +171,14 @@
                 <textarea class="input" id="message" cols="30" rows="10" placeholder="Message ..."></textarea>
             </div>
         </div>
-        <div class="btn">Submit <i class="fa-solid fa-arrow-right"></i>
+        <div class="btn">Submit<i class="fa-solid fa-arrow-right"></i>
         </div>
         <div class="social-icons">
             <div class="twitter">
-                <i class=" fa fa-brands fa-twitter"></i>
+                <a href="./blog.html">
+                    <i class=" fa fa-brands fa-twitter"></i>
+                </a>
+                
             </div>
             <div class="facebook">
                 <i class=" fa fa-brands fa-facebook"></i>
