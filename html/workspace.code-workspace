@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\assets"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\navtigation-menu-bar"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html"
+	}
+}

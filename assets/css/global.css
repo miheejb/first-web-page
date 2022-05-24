@@ -10,32 +10,29 @@
     --pink:rgb(252, 204, 212);
     --violet:violet;
     --lightviolet:rgb(247, 205, 247);
-    --darkviolet:rgb(202, 87, 202);
-    
-    
-
-    
+    --darkviolet:rgb(202, 87, 202);  
 }
 
 *,
 *::before,
-*::after,{
+*::after{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    
 }
 
-
-    
+*:visited{
+    color:var(--darkpink);
+  }
+   
 html,
 body{
     height:100%;
     line-height: 1.5rem;
     background-color: rgb(255, 227, 232);
-
 }
 
 body{
-    font-size:1.6rem;
+    font-size:2rem;
 }
+
