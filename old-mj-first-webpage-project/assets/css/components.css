@@ -1,0 +1,260 @@
+/* need to work out -create flex or grid for the article boxes */
+
+
+
+.nav-container {
+  width: 100%;
+  background-color:transparent;
+}
+
+.navbar {
+  display: flex;
+  justify-content:right;
+  height:8rem;
+  line-height:4rem;
+  width: 90%;
+  max-width: 1720px;
+  margin: 0 auto;
+}
+
+.logo{
+  width:20rem;
+  height: 7rem;
+  justify-content:left;
+  margin-top: 0.25rem;
+  box-shadow:none;
+  size-adjust: auto;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  list-style: none;
+  text-align: center;
+  width: 70%;
+  justify-self: end;
+  margin-top: 2rem;
+}
+
+.nav-links {
+  text-decoration: none;
+  font-size: 2.5rem;
+  color:var(--darkgrey);
+  font-weight:550;
+
+}
+
+.nav-links:hover {
+  color: var(--darkpink);
+  transition: all 0.2s ease-out;
+}
+
+.nav-links-btn {
+  background-color:transparent;
+  border: 0.3rem solid var(--brightred);
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 1px rgba(236, 134, 151, 0.5)
+}
+
+.nav-links-btn:hover {
+  background-color: transparent;
+  color: var(--brightred);
+  padding: 0.4rem 1.4rem;
+  border: 0.4rem solid var(--brightred);
+  transition: all 0.2s ease-out;
+  font-weight:bold;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: none;
+  height: 6rem;
+  line-height: 6rem;
+  background-color:pink;
+  color: var(--darkerpink);
+  font-size: 4rem;
+  word-spacing: 5rem;
+  letter-spacing: 2rem;
+  margin: 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: rgb(247, 148, 173);
+  border-radius: 5px;
+  color: white;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px 10px;
+  box-shadow: 5px 5px 1px rgba(240, 162, 175, 0.5)
+}
+
+.btn:hover {
+  color: black;
+  font-weight: bold;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.github-content {
+  display: inline-block;
+  background-color: yellow;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 10px;
+  margin: 5rem, 0, 10rem 5rem;
+  box-shadow: 5px 5px 1px rgba(206, 206, 108, 0.5)
+}
+
+.aside__container{
+  background-color:blanchedalmond;
+  color:var(--darkgreydarkgrey);
+  height:17rem;
+  line-height:17rem;
+  width:17rem;
+  border: 3px solid var(--darkerpink);
+  border-radius: 2rem;
+  box-shadow: 10px 10px 0 rgba(240, 162, 175, 0.5);
+}
+
+iframe{
+  border: 3px transparent var(--darkerpink);
+  border-radius: 15px;
+}
+
+.main__container{
+  flex-basis: 27%;
+  border: 3px solid var(--darkerpink);
+  border-radius: 2rem;
+  padding: 3rem;
+  flex-shrink: 1;
+  height: 50vh;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: rgb(56, 55, 55);
+  text-shadow: 0 10px 20px rgba(241, 113, 134 0.5);
+  line-height: 2rem;
+  flex-grow: 1;
+  flex-shirink: 1;
+  overflow-y:scroll;
+  box-shadow: 10px 10px 0 rgba(240, 162, 175, 0.5);
+  height:60rem;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.6rem;
+  padding: 0.5 rem;
+  text-decoration: none;
+  line-height: 3rem;
+}
+
+img {
+  width: 20rem;
+  border-radius: 3rem;
+  float: left;
+  margin-right: 3rem;
+  box-shadow:10px 10px 1px rgba(240, 162, 175, 0.5) ;
+  margin-bottom:2rem;
+  margin-right:3rem;
+}
+
+.container-contents {
+  font-size: 1.6rem;
+}
+
+footer{
+  background-color:var(--darkerpink);
+  color:var(--darkgrey);
+  height:10rem;
+  font-family:nunito;
+  padding-top:0;
+  position:relevant;
+}
+
+.footer__cotainer{
+  display:flex;
+  margin-top: 0;
+  width:70vw;
+  align-items: center;
+  justify-content: space-evenly
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon {
+  font-size: 4rem;
+  color:pink;
+  transition: auto 0.2s ease-out;
+  padding: 1rem;
+}
+
+.social-icon:hover {
+  color: aquamarine;
+}
+
+.footer__container h3,{
+  font-size: 2rem;
+  font-weight: 400;
+  padding-right:5rem;
+}
+
+.fa-balloon {
+  margin-right:1rem;
+  color: var(--darkgrey);
+}
+
+#subscribebox {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+  height: 12rem;
+  width: 30%;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 1.5rem;
+  padding-bottom:5rem; 
+  position:absolute; 
+  right:0;
+}
+
+.fa-envelope {
+  color:purple;
+  font-size: ;
+  padding-right:1rem;
+}
+
+#email-input {
+  width: 20rem;
+  padding: 1rem 2rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 5px 5px 1px rgba(236, 134, 151, 0.5);
+}
+
+#submit {
+  background-color:white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 5px 5px 1px rgba(236, 134, 151, 0.5)
+}
+
+#submit:hover {
+  font-weight: bolder;
+  background-color: var(--brightred);
+  transition: all 0.2s ease-out;
+}
+

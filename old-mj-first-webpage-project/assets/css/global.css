@@ -1,0 +1,38 @@
+:root{
+    --darkgrey:#212329;
+    --brightred:#f94230;
+    --white:#fff;
+    --lightred:#f9433dcc;
+    --deeppink:rgb(241, 89, 183);
+    --darkerpink:rgb(245, 133, 153);
+    --darkpink:rgb(247, 148, 173);
+    --lightpink:rgb(253, 227, 231);
+    --pink:rgb(252, 204, 212);
+    --violet:violet;
+    --lightviolet:rgb(247, 205, 247);
+    --darkviolet:rgb(202, 87, 202);  
+}
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+*:visited{
+    color:var(--darkpink);
+  }
+   
+html,
+body{
+    height:100%;
+    line-height: 2rem;
+    background-color: rgb(255, 227, 232);
+}
+
+body{
+    font-size:1.6rem;
+}
+
