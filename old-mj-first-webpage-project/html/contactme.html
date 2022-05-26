@@ -6,204 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../assets/images/pink-favicon.png">
-    <!-- <link rel="stylesheet" href="../assets/css/main.css"> -->
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-    <link href="https://fonts.googleapis.com/css2?family=Karla:ital@1&family=Lato:wght@300&family=Nunito&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital@1&family=Lato:wght@300&family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/contactme-html-styling.css">
     <script src="https://kit.fontawesome.com/150860aeac.js" crossorigin="anonymous"></script>
     <title>contactme </title>
 
-
-    <style>
-:root{
-    --darkgrey:#212329;
-    --brightred:#f94230;
-    --white:#fff;
-    --lightred:#f9433dcc;
-    --deeppink:rgb(241, 89, 183);
-    --darkerpink:rgb(245, 133, 153);
-    --darkpink:rgb(247, 148, 173);
-    --lightpink:rgb(253, 227, 231);
-    --pink:rgb(252, 204, 212);
-    --violet:violet;
-    --lightviolet:rgb(247, 205, 247);
-    --darkviolet:rgb(202, 87, 202);
-        }
-
-        * {
-
-            padding: 0;
-            font-family: nunito, san-serif;
-            font-size: 16px;
-
-        }
-
-        .contactme-body {
-            background: lightpink;
-            display: flex;
-            justify-content: space-evenly;
-            color:var(--darkgrey);
-        }
-
-.favicon{
-    width:25px;
-    height: 25px;
-    line-height: 25px;
-    border-radius:50%;
-    padding-right:10px;
-    align-self:center;
-    align-items:center;
-}
-        .contact-me .map{
-            width: 50vw;
-            background-color: white;
-            padding: 5rem;
-            margin: 7rem auto;
-            border-radius: 3px;
-            border: 5px sold violet;
-        }
-
-        .title h2,
-        .map h2 {
-            clear: #535274;
-            letter-spacing: 5px;
-            margin-bottom: 2.5px;
-            text-align: center;
-            font-size: 25px;
-            padding-top:35px;
-            padding-bottom:20px;
-        }
-
-        .form,
-        .form-items {
-            width: 100%;
-        }
-
-        .form-items .input {
-            width: 28rem;
-            margin-bottom: 15px;
-            padding: 15px 40px;
-            box-sizing: border-box;
-            background-color: white;
-            border: 0;
-            border-radius: 30px;
-        }
-
-        .form-items.input.message {
-            height: 124px;
-            border-radius: 15px;
-            margin-bottom: 30px;
-            padding: 15px resize:none;
-        }
-
-        .test {
-            width: 100%;
-            margin-bottom: 15px;
-            box-sizing: border-box;
-            padding: 15px 40px;
-            border-radius: 30px;
-            border: 0;
-        }
-
-        .btn {
-            background: violet;
-            text-align: center;
-            color: #fff;
-            padding: 12px;
-            border-radius: 30px;
-            cursor: pointer;
-        }
-
-        .btn:hover {
-            color:var(--darkgrey);
-            font-weight: 700;
-        }
-
-        .form-items {
-            position: relative;
-        }
-
-        .form-items .fa {
-            position: absolute;
-            top: 15px;
-            left: 15px;
-        }
-
-        .social-icons {
-            position: absolute;
-            top: 54rem;
-            left: 41%;
-            width: 15rem;
-            display: flex;
-            justify-content: space-between;
-            letter-spacing: 2rem;
-        }
-
-        .social-icons .fa:hover {
-            color:var(--darkgrey);
-        }
-
-        .social-icons div {
-            width: 50px;
-            height: 50px;
-            background: rgb(245, 138, 156);
-            border-radius: 50%;
-            position: relative;
-        }
-
-        .social-icons .fa {
-            position: absolute;
-            top: 50%;
-            left: 80%;
-            transform: translate(-50%, -50%);
-            color: white;
-        }
-        .googlemap{
-            border-radius: 20px;
-        }
-
-
-
-        .map-details{
-            padding-top: 10px;
-            padding-left: 10px;
-        }
-        li{
-            line-height:30px;
-            font-weight: bolder;
-            list-style: none;
-            color:var(--darkgrey)
-        }
-      i{padding: 5px;}
-
-      @media (max-width: 510px){
-        .contactme-body{
-              flex-direction:column;
-          }
-          .social-icons{
-              display:none;
-          }
-       
-}
-      @media (min-width: 510px) and (max-width: 1200px) {      
-        .contactme-body{
-              flex-direction:column;
-          }
-          .social-icons{
-              display:none;
-          }
-    
-
-}
-    </style>
 
 </head>
 
 <body class="contactme-body">
     <div class="contact-me">
         <div class="title">
-            <h2>  <img class = "favicon" src="../assets/images/pink-favicon.png" alt="">contact me</h2>
+            <h2> <img class="favicon" src="../assets/images/pink-favicon.png" alt="">contact me</h2>
         </div>
         <div class="form">
             <div class="form-items">
@@ -257,7 +71,7 @@
     </div>
     <div class="map">
 
-        <h2><img class = "favicon" src="../assets/images/pink-favicon.png" alt="">visit my gallery</h2>
+        <h2><img class="favicon" src="../assets/images/pink-favicon.png" alt="">visit my gallery</h2>
         <iframe class="googlemap"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7424.563962264968!2d2.2904326250076137!3d48.858596296043956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sEiffel%20Tower!5e0!3m2!1sen!2snz!4v1653343576920!5m2!1sen!2snz"
             width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -272,10 +86,9 @@
             </li>
             <li class="opening hours">
                 <i class="fa fa-solid fa-door-open"></i>
-                Opening hours: Monday to Friday (9am - 5pm)
+                Opening hrs: Mon to Fri (9am - 5pm)
             </li>
 
         </div>
     </div>
 </body>
-
