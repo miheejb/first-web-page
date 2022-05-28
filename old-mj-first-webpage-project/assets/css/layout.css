@@ -43,12 +43,6 @@ footer {
   color: var(--darkgrey);
 }
 
-.nav-links {
-  padding-right: 2rem;
-}
-
-.nav-links-btn {
-}
 
 aside {
   display: flex;
