@@ -118,6 +118,9 @@ h1 {
 iframe{
   border: 3px transparent var(--darkerpink);
   border-radius: 15px;
+  width:172px;
+  height:172px;
+  border:0;
 }
 
 .main__container{
