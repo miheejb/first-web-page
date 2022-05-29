@@ -1,7 +1,7 @@
 body {
   display: grid;
-  grid-template-columns: 6;
-  grid-template-rows: 7;
+  grid-template-columns: 16.666% 16.666% 16.666% 16.666% 16.666% auto;
+  grid-template-rows:14.285% 14.285% 14.285% 14.285% 14.285% 14.285% auto;
   column-width: 16.6vw;
 }
 
@@ -298,7 +298,7 @@ aside{
   }
   .social-icon {
     font-size: 2rem;
-    letter-spacing: none;
+    letter-spacing:0;
   }
   footer {
     display: flex;
@@ -306,4 +306,3 @@ aside{
     height: 15rem;
   }
 }
-

@@ -1,7 +1,3 @@
-/* need to work out -create flex or grid for the article boxes */
-
-
-
 .nav-container {
   width: 100%;
   background-color:transparent;
@@ -166,6 +162,10 @@ img {
   font-size: 1.6rem;
 }
 
+p::first-letter{
+  font-size:2rem;
+}
+
 footer{
   background-color:var(--darkerpink);
   color:var(--darkgrey);
@@ -258,3 +258,6 @@ footer{
   transition: all 0.2s ease-out;
 }
 
+input::placeholder{
+  color:var(--brightred)
+}

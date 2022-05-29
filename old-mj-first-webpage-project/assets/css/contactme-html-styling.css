@@ -44,12 +44,12 @@
     padding: 5rem;
     margin: 7rem auto;
     border-radius: 3px;
-    border: 5px sold violet;
+    border: 5px solid violet;
 }
 
 .title h2,
 .map h2 {
-    clear: #535274;
+    color: #535274;
     letter-spacing: 5px;
     margin-bottom: 2.5px;
     text-align: center;
@@ -77,7 +77,8 @@
     height: 124px;
     border-radius: 15px;
     margin-bottom: 30px;
-    padding: 15px resize:none;
+    padding: 15px;
+    resize:none;
 }
 
 .test {
@@ -155,7 +156,7 @@
 li {
     line-height: 30px;
     font-weight: bolder;
-    list-style: none;
+    list-style:disc;
     color: var(--darkgrey)
 }
 
